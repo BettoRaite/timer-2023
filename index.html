@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="js/timer.js" defer></script>
+    <title id="website-title" class="website-title">Timer</title>
+</head>
+<body>
+    <div class="timer">
+        <div class="timer-input-container">
+          <input class="input" type="text" placeholder="Type hours" id='hours-input'>
+          <input class="input" type="text" placeholder="Type minutes" id='minutes-input'>
+          <input class="input" type="text" placeholder="Type seconds" id='seconds-input'>
+        </div>
+        <div class="timer-output-container">
+          <p class="timer-output-text" id="timer-output-text">
+            0 : 0 : 0
+          </p>
+        </div>
+        <div class="timer-buttons-container">
+          <button class="timer-start-button" id='start-timer-button'>
+            Start
+          </button>
+          <button class="timer-reset-button" id='reset-timer-button'>
+            Reset
+          </button>
+          <div class="timer-log-window" id="log-window">
+              <p class="timer-log-window-text" id="timer-log-window-text">
+                Error
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>    
+</body>
+</html>
